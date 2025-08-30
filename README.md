@@ -1,5 +1,15 @@
 Zotero Keyword Generator Plugin
 A Zotero plugin that generates keywords for PDFs using Google Gemini AI.
+
+Install in Zotero
+
+Open Zotero
+Go to Tools > Add-ons
+Click the gear icon and select "Install Add-on From File"
+Select the keyword-generator.xpi file
+Restart Zotero if prompted
+
+
 Features
 
 Right-click context menu for PDF items
