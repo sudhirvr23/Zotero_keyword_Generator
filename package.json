@@ -1,0 +1,29 @@
+{
+  "name": "zotero-keyword-generator",
+  "version": "1.0.0",
+  "description": "A Zotero plugin to generate keywords for PDFs using AI",
+  "main": "bootstrap.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --dev",
+    "watch": "node build.js --watch"
+  },
+  "keywords": [
+    "zotero",
+    "plugin",
+    "pdf",
+    "keywords",
+    "ai",
+    "gemini"
+  ],
+  "author": "Sudhir Nair",
+  "license": "MIT",
+  "devDependencies": {
+    "archiver": "^5.3.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

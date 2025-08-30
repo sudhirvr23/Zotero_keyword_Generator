@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Keyword Generator",
+  "version": "1.0.0",
+  "description": "Generate keywords for PDFs using AI",
+  "homepage_url": "https://github.com/sudhirvr23/zotero-keyword-generator",
+  "author": "Sudhir Nair",
+  "license": "MIT",
+
+  "applications": {
+    "zotero": {
+      "id": "keyword-generator@sudhirvr23.com",
+      "name": "Keyword Generator",
+      "update_url": "https://raw.githubusercontent.com/sudhirvr23/zotero-keyword-generator/main/updates.json",
+      "strict_min_version": "7.0",
+      "strict_max_version": "7.0.*"
+    }
+  },
+
+  "legacy": {
+    "type": "bootstrap"
+  }
+}
